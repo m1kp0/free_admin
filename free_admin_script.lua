@@ -1,4 +1,4 @@
--- 10% done
+-- 10% of the script is completed
 -- script
 print("[m1kp]: loading main")
 local plrs = game.Players
