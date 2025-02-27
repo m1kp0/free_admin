@@ -25,7 +25,7 @@ local function cmd(cmd, chat)
     local getplrs = plrs:GetPlayers()
     if chat then game:GetService("TextChatService").TextChannels.RBXGeneral:SendAsync(":poop all") end
     for i, p in pairs(getplrs) do
-        if p.Name ~= plr.Name then plrs:Chat(""..cmd.." "..p.Name.."") wait(0.01) end
+        if p.Name ~= plr.Name then plrs:Chat(""..cmd.." "..p.Name.."") task.wait(0.01) end
     end
 end
 
