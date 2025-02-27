@@ -18,8 +18,7 @@ local loop_noclip_all
 local loop_clip_all
 local loop_ff_all
 local loop_unff_all
-local loop_kill_all_free
-local loop_kill_all_paid
+local loop_kill_all
 
 -- functions
 local function cmd(cmd, chat)
